@@ -129,35 +129,34 @@ ul li {
 
 }
 
-/* CAMPAIGN VIDEO*/
+
+
+
+/* CAMPAIGN*/
+
 .campaignvid {
   display: flex;
-  background-color: #f5f5dc;
   flex-direction: column;
-
+  align-items: center;
 }
 
-.campaigndescription {
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.9);
-  padding: 16px;
-
-}
-
-/* BUTTOM CAMPAIGN*/
 .buttoncampaignaj {
-  text-align: center;
+  padding: 8px 15px;
+  border-radius: 26px;
+  border: none;
+  background-color: #008CBA;
   margin: 20px;
 
 }
+
 
 .buttoncampaignaj a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 2em;
   color: whitesmoke;
-  text-align: center;
   animation: animate 2s linear infinite;
+
 
 }
 
@@ -175,22 +174,22 @@ ul li {
   }
 }
 
-.campaignvid h2 {
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace, bold;
-  font-size: 30px;
-}
-
-.buttoncampaignaj {
-  padding: 8px 15px;
-  border-radius: 26px;
-  border: none;
-  background-color: #008CBA;
-
-}
-
 .buttoncampaignaj:hover {
   background-color: #4CAF50;
   transition-duration: 0.4s;
+
+}
+
+.titlecampaing {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9)
+}
+
+.campaigndescription {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 16px;
+  text-align: center;
+  justify-content: space-between;
 
 }
