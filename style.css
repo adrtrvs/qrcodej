@@ -173,3 +173,25 @@ ul li {
   text-align: center;
   justify-content: space-between;
 }
+.botaocomprov {
+  background-color: #4caf50;
+  border: none;
+  padding: 13px 23px;
+  border-radius: 26px;
+}
+.botaocomprov:hover {
+  background-color: #cbf305;
+  transition-duration: 0.4s;
+}
+.botaocomprov a {
+  text-decoration: none;
+  font-size: 14px;
+  color: whitesmoke;
+  white-space: nowrap;
+  font-family: 'Cuprum', sans-serif;
+}
+._pix {
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
