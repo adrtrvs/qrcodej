@@ -21,7 +21,6 @@
 
 body {
   /*  background-color: #f5f5dc;*/
-  background-image: url(./files/natalbody.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -32,7 +31,7 @@ header img {
 }
 
 header p {
-  color: whitesmoke;
+  color: black;
   text-align: center;
   font-size: 18px;
   margin: 10px;
@@ -60,7 +59,7 @@ header p {
   padding: 8px 15px;
   border-radius: 26px;
   border: none;
-  background-color: #4caf50;
+  background-color: #008cba;
 }
 
 .bcampaign:hover {
@@ -73,14 +72,14 @@ header p {
 h1,
 h2,
 h3 {
-  color: #4caf50;
+  color: #008cba;
   text-transform: uppercase;
   font-family: 'Cuprum', sans-serif;
 }
 
 /*Menu principal*/
 .menu h2 {
-  background-color: #4caf50;
+  background-color: #008cba;
   text-align: center;
   font-size: 18px;
   margin: 5px;
@@ -106,13 +105,13 @@ ul li {
 /* paragrafos da lista*/
 .details {
   padding: 5px;
-  color: #4caf50;
+  color: #008cba;
   font-family: 'Cuprum', sans-serif;
 }
 
 /*botão clique lista*/
 ._link {
-  background-color: #4caf50;
+  background-color: #008cba;
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
@@ -157,7 +156,7 @@ ul li {
 }
 
 .buttoncampaignaj:hover {
-  background-color: #4caf50;
+  background-color: #008cba;
   transition-duration: 0.4s;
 }
 
@@ -174,7 +173,7 @@ ul li {
   justify-content: space-between;
 }
 .botaocomprov {
-  background-color: #4caf50;
+  background-color: #008cba;
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
