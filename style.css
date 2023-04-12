@@ -77,7 +77,8 @@ h3 {
   font-family: 'Cuprum', sans-serif;
 }
 
-/*Menu principal*/
+/* Menu principal */
+
 .menu h2 {
   background-color: #008cba;
   text-align: center;
@@ -156,7 +157,7 @@ ul li {
 }
 
 .buttoncampaignaj:hover {
-  background-color: #008cba;
+  background-color: #4caf50;
   transition-duration: 0.4s;
 }
 
@@ -172,8 +173,9 @@ ul li {
   text-align: center;
   justify-content: space-between;
 }
+
 .botaocomprov {
-  background-color: #008cba;
+  background-color: #4caf50;
   border: none;
   padding: 13px 23px;
   border-radius: 26px;
@@ -189,8 +191,34 @@ ul li {
   white-space: nowrap;
   font-family: 'Cuprum', sans-serif;
 }
+/* PIX ONG  */
 ._pix {
   color: black;
   padding: 20px;
   text-align: center;
+}
+.qrcodepixong {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.qrcodepixong img {
+  max-width: -webkit-fill-available;
+}
+/* TROCO SOLIDÁRIO */
+
+div.trocorockn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.trocorockn img {
+  max-width: -webkit-fill-available;
+}
+.ultroco li {
+  text-align: center;
+  font-family: 'Cuprum', sans-serif;
+  color: #008cba;
 }
